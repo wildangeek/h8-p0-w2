@@ -25,10 +25,12 @@ for(var b =20; b>=1; b--){
   console.log(b+ ' - I Will Become Full Stack Developer');
 }
 
-//No 3 Bagian 1
+// No 3 Bagian 1 & 2
 
-console.log('Perulangan Pertambahan Counter +1');
 for (var a =1; a<=100; a++){
-  console.log(a+ ' - Perulangan Counter');
+  if (a%2==0){
+    console.log('GENAP');
+  }else{
+    console.log('GANJIL');
+  }
 }
-
