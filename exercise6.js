@@ -37,7 +37,7 @@ for (var a =1; a<=100; a++){
 
 // No 3 Bagian 3 & 4
 
-for (b=1; b<=100; b+=2){
+for (var b=1; b<=100; b+=2){
   if(b%3==0){
     console.log('Kelipatan 3');
   }else{
