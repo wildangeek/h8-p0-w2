@@ -39,7 +39,23 @@ for (var a =1; a<=100; a++){
 
 for (var b=1; b<=100; b+=2){
   if(b%3==0){
-    console.log('Kelipatan 3');
+    console.log(b+ ' Kelipatan 3');
+  }else{
+    console.log('');
+  }
+}
+
+for (var c =1; c<=100; c+=5){
+  if(c%6==0){
+    console.log(c+ ' Kelipatan 6');
+  }else{
+    console.log('');
+  }
+}
+
+for (var d =1; d<=100;d+=9){
+  if(d%10==0){
+    console.log(d+ ' Kelipatan 10');
   }else{
     console.log('');
   }
