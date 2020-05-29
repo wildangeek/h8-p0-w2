@@ -34,3 +34,6 @@ for (var a =1; a<=100; a++){
     console.log('GANJIL');
   }
 }
+
+// No 3 Bagian 3 & 4
+
