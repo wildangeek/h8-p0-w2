@@ -39,3 +39,24 @@ console.log('Second Word: ' + secondWord);
 console.log('Third Word: ' + thirdWord);
 console.log('Fourth Word: ' + fourthWord);
 console.log('Fifth Word: ' + fifthWord);
+
+// Bagian 4
+
+var word ='wow JavaScript is so cool';
+var firstWord = word.substring(0,3);
+var secondWord = word.substring(4,14);
+var thirdWord = word.substring(15,17);
+var fourthWord = word.substring(18,20);
+var fifthWord = word.substring(21,25);
+
+var firstWordLength = firstWord.length;
+var secondWordLength = secondWord.length;
+var thirdWordLength = thirdWord.length;
+var fourthWordLength = fourthWord.length;
+var fifthWordLength = fifthWord.length;
+
+console.log(' First Word: ' + firstWord +', With Length ' +firstWordLength);
+console.log(' Second Word: ' + secondWord +', With Length ' +secondWordLength);
+console.log(' Third Word: ' + thirdWord + ', With Length ' +thirdWordLength);
+console.log('Fourth Word: ' + fourthWord +', With Length ' +fourthWordLength);
+console.log('Fifth Word: ' +fifthWord+', With Length ' +fifthWordLength);
