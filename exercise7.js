@@ -7,3 +7,13 @@ var row1 = 5;
 for (a=0; a<=5; a++){
     console.log(star);
 }
+
+// No 2
+
+var star ='';
+for(baris=0; baris <=5; baris++){
+  star +='*';
+}
+for(kolom=0; kolom <=5; kolom++){
+  console.log(star);
+}
