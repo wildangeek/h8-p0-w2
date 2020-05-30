@@ -15,3 +15,16 @@ var num2 = 6;
 
 var hasilPerkalian = calculateMultiply(num1,num2);
 console.log(hasilPerkalian);
+
+// Tugas 3
+
+function processSentence(name,age,address,hobby){
+  return 'Nama saya: '+name+ ', Umur saya: '+age+' Tahun, Alamat saya di :'+address+ ', Hobby saya: ' + hobby;
+}
+var name = "Agus";
+var age = 30;
+var address = "Jln. Malioboro, Yogyakarta";
+var hobby = "Gaming";
+
+var fullSentence = processSentence(name,age,address,hobby);
+console.log(fullSentence);
