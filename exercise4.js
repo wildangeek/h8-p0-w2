@@ -43,7 +43,7 @@ if(bulan <13){
   bulan =', bulannya salah!'
 }
 if ( tanggal <32 && tahun <=2200){
-  console.log( 'Tanggalnya: '+tanggal +' '+ bulan + ', Tahunnya: '+ tahun)
+  console.log( 'Tanggalnya: '+tanggal +' '+ bulan + ' Tahunnya: '+ tahun)
 }else{
   console.log('Tanggal Salah')
 }
