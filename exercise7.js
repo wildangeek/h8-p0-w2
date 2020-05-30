@@ -17,3 +17,11 @@ for(baris=0; baris <=5; baris++){
 for(kolom=0; kolom <=5; kolom++){
   console.log(star);
 }
+
+//No 3
+
+var star=''
+for(var baris=1;baris<=5; baris++ ){
+  star +='*';
+  console.log(star)
+}
