@@ -1,7 +1,6 @@
-
 var tanggal = 8
 var bulan = 13
-var tahun = 2000
+var tahun = 1995
 if(bulan <13){
   switch (bulan){
   case 1:
